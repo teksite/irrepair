@@ -1,0 +1,1 @@
+import{d as r}from"./dragula-BbpvRhsH.js";import"./_commonjsHelpers-Cpj98o6Y.js";let n=document.querySelector(".nested");n&&function(){r([n],{moves:function(o,t,e){return e.classList.contains("handle")}}).on("drop",function(o){let t=document.querySelectorAll(".item_id");t.forEach(e=>{e.value=Array.prototype.indexOf.call(t,e).toString()})})}();
