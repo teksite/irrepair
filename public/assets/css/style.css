@@ -1,0 +1,19 @@
+.main-slider-2 .h1{
+    color: #fff!important;
+    font-size: 4rem;
+
+}
+.main-slider-2 .homepageSlider_description{
+    color: #fff!important;
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .main-slider-2 .h1{
+        margin-right: 100px;
+    }
+    .main-slider-2 .homepageSlider_description{
+        margin-right: 100px;
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "Main": true,
+    "Widget": true,
+    "Page": true,
+    "SSO": true,
+    "Captcha": true,
+    "RestrictIP": true,
+    "Form": true,
+    "Menu": true,
+    "Blog": true,
+    "Theme": true,
+    "Comment": true,
+    "Announcement": true,
+    "Shop": true
+}

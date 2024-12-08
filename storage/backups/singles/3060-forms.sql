@@ -1,0 +1,2 @@
+INSERT INTO `forms` (`id`, `title`, `body`, `rules`, `emails`, `phones`, `telegram_id`, `urls`, `template`, `recaptcha`, `has_file`, `created_at`, `updated_at`) VALUES
+    (1, 'مشاوره رایگان', NULL, '{\"0\":{\"name\":\"phone\",\"rule\":\"required|string|min:10|max:11\"},\"2\":{\"name\":\"address\",\"rule\":\"required|string\"}}', NULL, NULL, NULL, NULL, 'consult', 0, 0, '2024-11-16 01:47:25', '2024-11-17 03:41:13');

@@ -1,0 +1,13 @@
+{
+    "captcha": "کپچا",
+    "to use local captcha, use the below component in your form": "برای استفاده از کپچا محلی، از کامپوننت زیر در فرم خود استفاده کنید",
+    "to use google_v2 captcha, use the below component in your form": "برای استفاده از کپچا گوگل ورژن 2، از کامپوننت زیر در فرم خود استفاده کنید",
+    "then use the below rule in validation of data": "سپس از قانون زیر در اعتبار سنجی اطلاعات استفاده کنید",
+    "new captcha code": "کد کپچای جدید",
+    "recaptcha validation fails, please try again": "راستی‌آزمایی ریکپچا ناموفق بود، لطفا دوباره تلاش کنید",
+    "something go wrong, please try again our or call support team of the website":"مشکلی پیش آمده‌است، لطفا دوباره تلاش کنید یا با تیسم پیشتیبانی وب‌سایت تماس بگیرید",
+    "something wrong in invalidation process": "در فرآیند اعتبارسنجی کپچا مشکلی بوجود آمده است",
+    "something goes wrong in validating google recaptcha": "در اعتبار سنجی کپچا مشکلی بوحود آمده‌است",
+    "recaptcha validation fails": "راستی آزمایی کپچا ناموفق بود",
+    "captcha code": "کد کپچا"
+}

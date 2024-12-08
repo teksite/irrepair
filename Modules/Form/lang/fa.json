@@ -1,0 +1,20 @@
+{
+    "form": "فرم",
+    "forms": "فرم‌ها",
+    "rule": "قاعده",
+    "rules": "قاعده‌ها",
+    "receives": "دریافتی‌ها",
+    "receive": "دریافتی",
+    "inboxes": "صندوق دریافتی‌ها",
+    "inbox": "صندوق دریافتی",
+    "forms receives": "دریافتی‌های فرم‌ها",
+    "form receives": "دریافتی‌های فرم‌",
+    "emails": "ایمیل‌ها",
+    "phones": "تلفن‌ها",
+    "telegram ids": "آی‌دی‌های تلگرام",
+    "urls": "آدرس‌های اینترنتی",
+    "a new form is submitted": "یک فرم جدید ثبت شده است",
+    "a new form is submitted, the form is :title": "یک فرم جدید در :title  ثبت شده‌است",
+    "has file": "فایل دارد",
+    "has recaptcha": "ریکپچا دارد"
+}

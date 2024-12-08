@@ -1,0 +1,12 @@
+<x-main::panel-layout>
+    @section('title')
+        @yield('title')
+    @endsection
+    @section('hero-start')
+        @yield('hero-start')
+    @endsection
+    @section('hero-end')
+        @yield('hero-end')
+    @endsection
+    @yield('main')
+</x-main::panel-layout>

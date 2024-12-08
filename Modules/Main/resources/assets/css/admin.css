@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply font-bold lg:text-3xl md:text-2xl text-xl;
+    }
+    h2{
+        @apply font-bold lg:text-2xl md:text-xl text-lg;
+    }
+    h3{
+        @apply font-bold lg:text-xl text-lg;
+    }
+    p{
+        @apply text-gray-900 mb-3
+    }
+}
+
+@layer components{
+
+    .p , .paragraph{
+        @apply text-gray-900
+    }
+
+    .paragraph{
+        @apply mb-3
+    }
+    .inner-container {
+        @apply w-11/12 md:w-3/4 max-w-7xl mx-auto
+    }
+    a.header-link{
+        @apply border border-slate-200 rounded shadow
+    }
+    a.regular , .regular-link{
+        @apply text-blue-600 hover:text-blue-400
+    }
+    pre.pre-text{
+        @apply text-wrap
+    }
+    .tkicon{
+        @apply fill-none
+    }
+    .xbox{
+        @apply p-6 rounded-2xl shadow-xl bg-white
+    }
+    .fieldset{
+        @apply border border-slate-200 rounded-lg p-3 mb-6
+    }
+}
+input[type="number"],input[type="phone"], input[type="date"], input[type="localdate"], input[type="url"] , input[type="email"], input[name="slug"] {
+    direction: ltr;
+}
+
+.ts-control{
+    background: none!important;
+    border-radius: 0.5rem!important;
+    border-color: rgb(226 232 240)!important;
+}
+.ts-control > div{
+    background: #1e816a!important;
+    color: #fff!important;
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem!important;
+}
+.tox-statusbar__right-container{
+    display:none!important;
+}

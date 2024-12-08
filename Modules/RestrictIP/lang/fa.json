@@ -1,0 +1,16 @@
+{
+    "ip": "آی‌پی",
+    "ips": "آی‌پی‌ها",
+    "IP": "آی‌پی",
+    "IPs": "آی‌پی‌ها",
+    "black list": "لیست سیاه",
+    "restrict mode": "حالت محدود سازی",
+    "white list": "لیست سفید",
+    "restrict ip list": "لیست آی‌پی‌های محدود شده",
+    "restricting ip": "محدود کردن آی‌پی",
+    "restrict ips": "محدود کردن آی‌پی‌ها",
+    "to add or remove an item from the list, call a admin": "برای اضافه یا حذف کردن مورد از لیست‌ها، با ادمین تماس بگیرید",
+    "in this window you can see all ips to allow or block them": "در این پنجره می‌توانید تمام آی‌پی‌ها بری اجازه یا بلاک کردن آنها را مشاهده کنید",
+    "in this condition only black list ips are blocked": "در این شرایط فقط آی‌پی‌های لسیت سیاه مسدود هستند",
+    "in this condition all ips are blocked but white list": "در این شرایط تمام آی‌پی‌ها  به غیر از لیست سفید مسدود هستند"
+}

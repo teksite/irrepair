@@ -1,0 +1,11 @@
+{
+    "name": "RestrictIP",
+    "alias": "restrictip",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\RestrictIP\\Providers\\RestrictIPServiceProvider"
+    ],
+    "files": []
+}

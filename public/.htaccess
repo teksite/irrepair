@@ -1,0 +1,318 @@
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+
+
+#Redirects
+
+#other
+Redirect 301 /736-2/ https://barsasoft.com/
+Redirect 301 /products/ https://barsasoft.com/
+Redirect 301 /thought-barsa/ https://barsasoft.com/about-barsa/
+Redirect 301 /tejarat/ https://barsasoft.com/customers/
+Redirect 301 /business-partner/ https://barsasoft.com/customers/
+Redirect 301 /regconf/ https://barsasoft.com/customers/
+Redirect 301 /business-co-workers/ https://barsasoft.com/customers/
+
+
+Redirect 301 /minutes-management/ https://barsasoft.com/
+Redirect 301 /logo/صندوق-صنعت-نفت/ https://barsasoft.com/
+Redirect 301 /بانک-تجارت/ https://barsasoft.com/
+Redirect 301 /logo/بانک-تجارت/ https://barsasoft.com/
+Redirect 301 /portfolio-item/tejarat-bank/ https://barsasoft.com/
+Redirect 301 /logo/صنایع-ملی-پتروشیمی/ https://barsasoft.com/
+Redirect 301 /logo/سازمان-فرهنگی-هنری-شهرداری-تهران/ https://barsasoft.com/
+Redirect 301 /logo/بانک-توسعه-تعاون/ https://barsasoft.com/
+Redirect 301 /logo/بیمه-ایران/ https://barsasoft.com/
+Redirect 301 /logo/صندوق-بیمه-اجتماعی/ https://barsasoft.com/
+Redirect 301 /logo/دانشگاه-علوم-انسانی-و-مطالعات-فرهنگی/ https://barsasoft.com/
+
+#Demo
+Redirect 301 /logistic-and-assets/crm/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /human-resource-system/hr-reports-analysis/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /human-resource-system/recruitment-employment-process/organizational-structure/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /logistic-and-assets/property-system/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /logistic-and-assets/commerce/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /barsa-system-builder/process-oriented-systems/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /financial-solutions/accounting-system/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /category/others-essay/demo-request/ https://barsasoft.com/demo-request/
+Redirect 301 /human-resource-system/recruitment-employment-process/human-resource-planning/demo-request/ https://barsasoft.com/demo-request/
+
+#Ba Barsa
+Redirect 301 /chronicle/ https://barsasoft.com/about-barsa/
+Redirect 301 /aim/ https://barsasoft.com/about-barsa/
+Redirect 301 /barsanesh/ https://barsasoft.com/blog/
+
+#SYSTEMSAZ
+Redirect 301 /barsa-system-builder/system-maker-vs-bpms/ https://barsasoft.com/blog/system-builder-vs-bpms/
+Redirect 301 /barsa-system-builder/projects/ https://barsasoft.com/customers/
+Redirect 301 /barsa-system-builder/structure-system/immense-architecture/ https://barsasoft.com/barsa-system-builder/what-is-system-maker/
+Redirect 301 /barsa-system-builder/structure-system/form-maker/ https://barsasoft.com/barsa-system-builder/form-maker/
+Redirect 301 /barsa-system-builder/structure-system/process-management/ https://barsasoft.com/barsa-system-builder/process-management/
+Redirect 301 /barsa-system-builder/structure-system/report-maker/ https://barsasoft.com/barsa-system-builder/report-maker/
+Redirect 301 /barsa-system-builder/structure-system/interface/ https://barsasoft.com/barsa-system-builder/interface/
+Redirect 301 /barsa-system-builder/structure-system/security/ https://barsasoft.com/barsa-system-builder/security/
+Redirect 301 /barsa-system-builder/bmps/ https://barsasoft.com/barsa-system-builder/what-is-system-maker/
+
+Redirect 301 /overview/ https://barsasoft.com/barsa-system-builder/what-is-system-maker/
+Redirect 301 /barsa-system-builder/bmps/ https://barsasoft.com/barsa-system-builder/process-management/
+Redirect 301 /BPMS/ https://barsasoft.com/barsa-system-builder/process-management/
+Redirect 301 /customization/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /داشبورد/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /داشبورد-و-ابزارهای-گزارش%e2%80%8cگیری/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /barsa-system-builder/dashboard/ https://barsasoft.com/barsa-system-builder/
+
+Redirect 301 /barsa-system-builder/development-platform/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /barsa-system-builder/structure-system/rules-work/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /barsa-system-builder/process-oriented-systems/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /barsa-system-builder/selection-criteria/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /barsa-system-builder/system-maker-vs-programing/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /barsa-system-builder/barsa-founder-system-maker/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /hybrid-system/hybrid-data-layer/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /hybrid-system/hybrid-system/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /hybrid-system/hybrid-proccess-layer/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /hybrid-system/hybrid-interface/ https://barsasoft.com/barsa-system-builder/
+Redirect 301 /hybrid-system/hybrid-product-layer/ https://barsasoft.com/barsa-system-builder/
+
+Redirect 301 /bpms-effect-on-org/ https://barsasoft.com/barsa-system-builder/process-management
+
+
+#Automation
+Redirect 301 /office-automation-system/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /office-automation-system/official-automation/ https://barsasoft.com/solutions/office-automation-system/official-automation/
+Redirect 301 /office-automation-system/settingmeeting/ https://barsasoft.com/solutions/office-automation-system/settingmeeting/
+Redirect 301 /office-automation-system/archive-documents/ https://barsasoft.com/solutions/office-automation-system/archive-documents/
+Redirect 301 /office-automation-system/suggestion/ https://barsasoft.com/solutions/office-automation-system/suggestion/
+
+Redirect 301 /settingmeeting/ https://barsasoft.com/solutions/office-automation-system/settingmeeting/
+Redirect 301 /official-correspondence/ https://barsasoft.com/solutions/office-automation-system/official-automation/
+Redirect 301 /office-automation-system/electronic-workbench/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /electronic-workbench/ https://barsasoft.comhttps://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /office-automation-system/phonebook/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /phonebook/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /office-automation-system/email/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /Email/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /office-automation-system/sms/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /SMS/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /office-automation-system/fax/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /FAX/ https://barsasoft.com/solutions/office-automation-system/
+Redirect 301 /archive-documents/ https://barsasoft.com/solutions/office-automation-system/archive-documents/
+
+#Finance
+Redirect 301 /financial-solutions/ https://barsasoft.com/solutions/financial-solutions/
+Redirect 301 /financial-solutions/financial/ https://barsasoft.com/solutions/financial-solutions/financial/
+Redirect 301 /financial-solutions/treasury/ https://barsasoft.com/solutions/financial-solutions/treasury/
+Redirect 301 /financial-solutions/budget/ https://barsasoft.com/solutions/financial-solutions/budget/
+
+Redirect 301 /accounting-system/ https://barsasoft.com/solutions/financial-solutions/financial/
+Redirect 301 /financial-solutions/accounting-system/ https://barsasoft.com/solutions/financial-solutions/financial/
+
+#Holdings
+
+#egoverment
+Redirect 301 /e-government/ https://barsasoft.com/solutions/e-government/
+Redirect 301 /e-government/e-government-service-window/ https://barsasoft.com/solutions/e-government/e-government-service-window/
+Redirect 301 /e-government/permissions-automation/ https://barsasoft.com/solutions/e-government/service-authorizations-processes/
+Redirect 301 /e-government/permissions-automation/ https://barsasoft.com/solutions/e-government/service-authorizations-processes/
+
+#other solutions
+Redirect 301 /maintanence-system/ https://barsasoft.com/solutions/special-system/maintanence-system/
+Redirect 301 /strategic-management/ https://barsasoft.com/solutions/special-system/strategic-management/
+Redirect 301 /energy-management/ https://barsasoft.com/solutions/special-system/energy-management/
+Redirect 301 /help-desk/ https://barsasoft.com/solutions/special-system/help-desk/
+Redirect 301 /inspection-system/ https://barsasoft.com/solutions/special-system/inspection-system/
+
+Redirect 301 /helpdesk/ https://barsasoft.com/solutions/special-system/help-desk/
+Redirect 301 /lims/ https://barsasoft.com/
+Redirect 301 /داشبورد-و-ابزارهای-گزارش‌گیری/s https://barsasoft.com/
+
+
+Redirect /e-government/e-government-service-window/service-portal/ https://barsasoft.com/solutions/e-government/e-government-service-window/
+Redirect /e-government/e-government-service-window/transparency-open-portal/ https://barsasoft.com/solutions/e-government/e-government-service-window/
+Redirect e-government/open-data-portal/ https://barsasoft.com/solutions/e-government/e-government-service-window/
+Redirect /e-government/transparency-portal/ https://barsasoft.com/solutions/e-government/e-government-service-window/
+Redirect /e-government/e-government-service-window/smart-assistant/ https://barsasoft.com/solutions/e-government/e-government-service-window/
+
+Redirect /e-government/permissions-automation/integration-module/ https://barsasoft.com/solutions/e-government/integrated-repository-services/
+
+Redirect /e-government/permissions-automation/precess-storage/ https://barsasoft.com/solutions/e-government/service-authorizations-processes/
+Redirect /e-government/permissions-automation/ https://barsasoft.com/solutions/e-government/service-authorizations-processes/
+
+Redirect /e-government/government-erp/ https://barsasoft.com/solutions/e-government/service-desk/
+Redirect /e-government/permissions-automation/system-maker-e/ https://barsasoft.com/barsa-system-builder/what-is-system-maker/
+
+
+Redirect /e-government/organizational-intelligence/ https://barsasoft.com/solutions/e-government/
+Redirect /e-government/organizational-intelligence/decision-mate/ https://barsasoft.com/solutions/e-government/
+Redirect /e-government/organizational-intelligence/observation/ https://barsasoft.com/solutions/e-government/
+
+
+
+#Logestic
+Redirect 301 /logistic-and-assets/ https://barsasoft.com/solutions/logistic-and-assets/
+Redirect 301 /logistic-and-assets/storing/ https://barsasoft.com/solutions/storing/
+Redirect 301 /logistic-and-assets/property-system/ https://barsasoft.com/solutions/logistic-and-assets/property-system/
+Redirect 301 /logistic-and-assets/supply-chain-and-product-logistics/ https://barsasoft.com/solutions/logistic-and-assets/supply-chain-and-product-logistics/
+Redirect 301 /logistic-and-assets/contract-matters/ https://barsasoft.com/solutions/logistic-and-assets/contract-matters/
+Redirect 301 /logistic-and-assets/commerce/ https://barsasoft.com/solutions/logistic-and-assets/commerce/
+Redirect 301 /logistic-and-assets/real-estate-system/ https://barsasoft.com/solutions/logistic-and-assets/real-estate-system/
+Redirect 301 /logistic-and-assets/the-vehicle/ https://barsasoft.com/solutions/logistic-and-assets/the-vehicle/
+Redirect 301 /logistic-and-assets/crm/ https://barsasoft.com/solutions/logistic-and-assets/crm/
+
+Redirect 301 /crm/ https://barsasoft.com/solutions/logistic-and-assets/crm/
+Redirect 301 /machinery/ https://barsasoft.com/solutions/logistic-and-assets/the-vehicle/
+Redirect 301 /the-vehicle/ https://barsasoft.com/solutions/logistic-and-assets/the-vehicle/
+Redirect 301 /commerce/ https://barsasoft.com/solutions/logistic-and-assets/commerce/
+Redirect 301 /تدارکات-و-انبار/ https://barsasoft.com/solutions/logistic-and-assets/supply-chain-and-product-logistics/
+Redirect 301 /controllingcontracts/ https://barsasoft.com/solutions/logistic-and-assets/contract-matters/
+Redirect 301 /Supply-chain-and-product-logistics/ https://barsasoft.com/solutions/logistic-and-assets/supply-chain-and-product-logistics/
+Redirect 301 /Real-estate-system/ https://barsasoft.com/solutions/logistic-and-assets/real-estate-system/
+Redirect 301 /property-system/ https://barsasoft.com/solutions/logistic-and-assets/property-system/
+Redirect 301 /Contract-matters/ https://barsasoft.com/solutions/logistic-and-assets/contract-matters/
+
+
+#HR
+Redirect 301 /human-resource-system/ https://barsasoft.com/solutions/human-resource-system/
+Redirect 301 /human-resource-system/recruitment-employment-process/ https://barsasoft.com/solutions/human-resource-system/
+Redirect 301 /human-resource-system/compensation-retention-process/ https://barsasoft.com/solutions/human-resource-system/
+Redirect 301 /human-resource-system/development-empowerment-process/ https://barsasoft.com/solutions/human-resource-system/
+
+Redirect 301 /human-resource-system/job-analysis-grading https://barsasoft.com/solutions/human-resource-system/job-analysis-grading/
+Redirect 301 /human-resource-system/recruitment-employment-process/recruitment/ https://barsasoft.com/solutions/human-resource-system/recruitment/
+Redirect 301 /human-resource-system/recruitment-employment-process/recruitment-employment-process/ https://barsasoft.com/solutions/human-resource-system/organizational-structure/
+Redirect 301 /human-resource-system/recruitment-employment-process/organizational-structure/ https://barsasoft.com/solutions/human-resource-system/organizational-structure/
+Redirect 301 /human-resource-system/recruitment-employment-process/human-resource-planning/ https://barsasoft.com/solutions/human-resource-system/human-resource-planning/
+Redirect 301 /human-resource-system/recruitment-employment-process/onboarding/ https://barsasoft.com/solutions/human-resource-system/
+
+Redirect 301 /human-resource-system/exit-management/ https://barsasoft.com/solutions/human-resource-system/exit-management/
+Redirect 301 /human-resource-system/hr-reports-analysis/ https://barsasoft.com/solutions/human-resource-system/hr-reports-analysis/
+Redirect 301 /human-resource-system/hr-excellence-model-assessment/ https://barsasoft.com/solutions/human-resource-system/hr-excellence-model-assessment/
+
+Redirect 301 /human-resource-system/compensation-retention-process/rulings-and-contracts/ https://barsasoft.com/solutions/human-resource-system/rulings-and-contracts/
+Redirect 301 /human-resource-system/compensation-retention-process/payroll/ https://barsasoft.com/solutions/human-resource-system/payroll/
+Redirect 301 /human-resource-system/compensation-retention-process/attendance-tracking/ https://barsasoft.com/solutions/human-resource-system/attendance-tracking/
+Redirect 301 /human-resource-system/compensation-retention-process/loan-management/ https://barsasoft.com/solutions/human-resource-system/loan-management/
+Redirect 301 /human-resource-system/compensation-retention-process/benefits-management/ https://barsasoft.com/solutions/human-resource-system/loan-management/
+Redirect 301 /human-resource-system/compensation-retention-process/comprehensive-employee-health/ https://barsasoft.com/solutions/human-resource-system/comprehensive-employee-health/
+Redirect 301 /human-resource-system/compensation-retention-process/feeding-automation/ https://barsasoft.com/solutions/human-resource-system/feeding-automation/
+Redirect 301 /human-resource-system/compensation-retention-process/travel-management/ https://barsasoft.com/solutions/human-resource-system/travel-management/
+Redirect 301 /human-resource-system/compensation-retention-process/hotel-management/ https://barsasoft.com/solutions/human-resource-system/hotel-management/
+Redirect 301 /human-resource-system/compensation-retention-process/sport-events-management/ https://barsasoft.com/solutions/human-resource-system/sport-events-management/
+
+Redirect 301 /human-resource-system/development-empowerment-process/performance-appraisal/ https://barsasoft.com/solutions/human-resource-system/performance-appraisal/
+Redirect 301 /human-resource-system/development-empowerment-process/performance-management/ https://barsasoft.com/solutions/human-resource-system/performance-management/
+Redirect 301 /human-resource-system/development-empowerment-process/training-and-learning/ https://barsasoft.com/solutions/human-resource-system/training-and-learning/
+Redirect 301 /human-resource-system/development-empowerment-process/talent-succession-management/ https://barsasoft.com/solutions/human-resource-system/talent-succession-management/
+Redirect 301 /human-resource-system/development-empowerment-process/analysis-development-of-competencies/ https://barsasoft.com/solutions/human-resource-system/analysis-development-of-competencies/
+Redirect 301 /human-resource-system/development-empowerment-process/personal-grading-horizontal-career/ https://barsasoft.com/solutions/human-resource-system/personal-grading-horizontal-career/
+Redirect 301 /human-resource-system/development-empowerment-process/job-rotation-management/ https://barsasoft.com/solutions/human-resource-system/job-rotation-management/
+Redirect 301 /human-resource-system/development-empowerment-process/suggestions-continuous-innovation/ https://barsasoft.com/solutions/office-automation-system/suggestion/
+Redirect 301 /human-resource-system/development-empowerment-process/work-teams-management/ https://barsasoft.com/solutions/human-resource-system/work-teams-management/
+Redirect 301 /human-resource-system/development-empowerment-process/knowledge-management/ https://barsasoft.com/solutions/human-resource-system/knowledge-management/
+Redirect 301 /human-resource-system/development-empowerment-process/disciplinary-committee-management/ https://barsasoft.com/solutions/human-resource-system/disciplinary-committee-management/
+
+
+Redirect 301 /task-management/ https://barsasoft.com/solutions/human-resource-system/work-teams-management/
+Redirect 301 /comprehensive-human-resources-s https://barsasoft.com/solutions/human-resource-system/
+Redirect 301 /hr/ https://barsasoft.com/solutions/human-resource-system/
+Redirect 301 /hr/development-empowerment-process/performance-appraisal/ https://barsasoft.com/solutions/human-resource-system/performance-appraisal/
+Redirect 301 /hr/compensation-retention-process/feeding-automation/ https://barsasoft.com/solutions/human-resource-system/feeding-automation/
+Redirect 301 /human-resource-system/exit-management/end-cooperation/ https://barsasoft.com/solutions/human-resource-system/exit-management/
+Redirect 301 /hr-software-and-solutions/ https://barsasoft.com/solutions/human-resource-system/
+Redirect 301 /comprehensive-human-resources-system/ https://barsasoft.com/solutions/human-resource-system/
+
+#Kargrouh farayand
+Redirect 301 /bp-group-meetings/ https://barsasoft.com/blog/bp-group-meetings/
+Redirect 301 /bp-group-meetings/e-24/ https://barsasoft.com/blog/bp-group-meetings/
+Redirect 301 /bp-group-meetings/1402-11-1/ https://barsasoft.com/blog/bp-group-meetings/
+Redirect 301 /bp-group-meetings/1402-11-08/ https://barsasoft.com/blog/bp-group-meetings/
+Redirect 301 /bp-group-meetings/1402-11-15/ https://barsasoft.com/blog/bp-group-meetings/
+Redirect 301 /1402-11-29/ https://barsasoft.com/blog/bp-group-meetings/
+Redirect 301 /bp-group-meetings/1402-12-20/ https://barsasoft.com/blog/bp-group-meetings/
+
+#Seminar & sabtnam eventr
+Redirect 301 /seminar/ https://barsasoft.com/register-event/
+Redirect 301 /seminar/y1401/egov-1st/ https://barsasoft.com/register-event/
+Redirect 301 /seminar/y1401/egov-2nd/ https://barsasoft.com/register-event/
+
+#Catgegory
+Redirect 301 /category/news/ https://barsasoft.com/blog?categories=%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1%20%D8%A8%D8%B1%D8%B3%D8%A7
+Redirect 301 /category/media/ https://barsasoft.com/blog?categories=مدیا
+Redirect 301 /category/movie-media/ https://barsasoft.com/blog?categories=مدیا
+Redirect 301 /category/uncategorized/ https://barsasoft.comhttps://barsasoft.com/blog/blog?categories=متفرقه
+Redirect 301 /category/gallery/ https://barsasoft.com/blog/
+Redirect 301 /category/essay/ https://barsasoft.com/blog/
+Redirect 301 /category/essay/others-essay/ https://barsasoft.com/blog?categories=مقالات%20دولت%20الکترونیک
+Redirect 301 /category/essay/essay-electronic-government/ https://barsasoft.com?categories=مقالات%20دولت%20الکترونیک
+Redirect 301 /category/essay/essay-system-maker/ https://barsasoft.com/blog?categories=مقالات%20سیستم%20ساز
+Redirect 301 /category/egovernment/ https://barsasoft.com/blog?categories=مقالات%20دولت%20الکترونیک
+
+#posts
+Redirect 301 /learning-egov/ https://barsasoft.com/blog/learning-egov/
+Redirect 301 /همایش-دوم-دولت-الکترونیک/ https://barsasoft.com/blog/همایش-دوم-دولت-الکترونیک/
+Redirect 301 /اولین-همایش-دولت-الکترونیک-هوشمندی-در/ https://barsasoft.com/blog/اولین-همایش-دولت-الکترونیک-هوشمندی-در/
+Redirect 301 /اخذ-رتبه-یک-شورای-عالی-انفورماتیک-کشور/ https://barsasoft.com/blog/اخذ-رتبه-یک-شورای-عالی-انفورماتیک-کشور/
+Redirect 301 /bmpn2-help/ https://barsasoft.com/blog/bmpn2-help/
+Redirect 301 /مفهوم-سیستم-سازی-تولید-نرم-افزار-در-شرک/ https://barsasoft.com/blog/مفهوم-سیستم-سازی-تولید-نرم-افزار-در-شرک/
+Redirect 301 /low-code-development/ https://barsasoft.com/blog/low-code-development/
+Redirect 301 /table-creator/ https://barsasoft.com/blog/table-creator/
+Redirect 301 /راهکار-یکپارچه-دولت-الکترونیک/ https://barsasoft.com/blog/راهکار-یکپارچه-دولت-الکترونیک/
+Redirect 301 /ویژگی-های-اصلی-دولت-دیجیتال/ https://barsasoft.com/blog/ویژگی-های-اصلی-دولت-دیجیتال/
+Redirect 301 /سه-ویژگی-اصلی-دولت-دیجیتال/ https://barsasoft.com/blog/ویژگی-های-اصلی-دولت-دیجیتال/
+Redirect 301 /دولت-داده-محور/ https://barsasoft.com/blog/دولت-داده-محور/
+Redirect 301 /دولت-یکپارچه/ https://barsasoft.com/blog/دولت-یکپارچه/
+Redirect 301 /دولت-کاربر-محور/ https://barsasoft.com/blog/دولت-کاربر-محور/
+Redirect 301 /دولت-هوشمند/ https://barsasoft.com/blog/دولت-هوشمند/
+Redirect 301 /دولت-شفاف/ https://barsasoft.com/blog/دولت-شفاف/
+Redirect 301 /دولت-مشارکتی/ https://barsasoft.com/blog/دولت-مشارکتی/
+Redirect 301 /تحول-دیجیتال-چیست/ https://barsasoft.com/blog/تحول-دیجیتال-چیست/
+Redirect 301 /معرفی-عصر-دیجیتال/ https://barsasoft.com/blog/معرفی-عصر-دیجیتال/
+Redirect 301 /مقدمه-ای-برعصر-دیجیتال-و-تحول-دیجیتال/ https://barsasoft.com/blog/مقدمه-ای-برعصر-دیجیتال-و-تحول-دیجیتال/
+Redirect 301 /شرکت-برسا،-حامی-انحصاری-سومین-همایش-مل/ https://barsasoft.com/blog/شرکت-برسا،-حامی-انحصاری-سومین-همایش-مل/
+Redirect 301 /حضور-برسا-در-نمایشگاه-تهران-هوشمند/ https://barsasoft.com/blog/حضور-برسا-در-نمایشگاه-تهران-هوشمند/
+Redirect 301 /همایش-معرفی-سیستم-ساز-برسا-در-محل-تالار/ https://barsasoft.com/blog/همایش-معرفی-سیستم-ساز-برسا-در-محل-تالار/
+Redirect 301 /همایش-معرفی-سیستم¬ساز-برسا-در-محل-تالا/ https://barsasoft.com/blog/همایش-معرفی-سیستم-ساز-برسا-در-محل-تالار/
+Redirect 301 /حضور-برسا-نوین-رای-در-بیست-و-پنجمین-نمای/ https://barsasoft.com/blog/حضور-برسا-نوین-رای-در-بیست-و-پنجمین-نمای/
+Redirect 301 /حضور-برسا-نوین-رای-در-ششمین-همایش-itweekend/ https://barsasoft.com/blog/حضور-برسا-نوین-رای-در-ششمین-همایش-itweekend/
+Redirect 301 /حضور-برسا-نوین-رای-دردوازدهمین-نمایشگ/ https://barsasoft.com/blog/حضور-برسا-نوین-رای-دردوازدهمین-نمایشگ/
+Redirect 301 /ویژگی-های-یک-ارائه-خوب/ https://barsasoft.com/blog/ویژگی-های-یک-ارائه-خوب/
+Redirect 301 /مدلسازی-فرایندهای-کسب-و-کار-با-bpmn/ https://barsasoft.com/blog/مدلسازی-فرایندهای-کسب-و-کار-با-bpmn/
+Redirect 301 /برسا-انتخاب-ملی/ https://barsasoft.com/blog/برسا-انتخاب-ملی/
+Redirect 301 /۸-توصیه-در-برگزاری-جلسات-مصاحبه/ https://barsasoft.com/blog/۸-توصیه-در-برگزاری-جلسات-مصاحبه/
+Redirect 301 /سیستم-های-اطلاعاتی-را-برای-مدیران-طراح/ https://barsasoft.com/blog/سیستم-های-اطلاعاتی-را-برای-مدیران-طراح/
+Redirect 301 /تفاوت-تحلیل-گر-حرفه-ای-و-تحلیل-گر-آماتور/ https://barsasoft.com/blog/تفاوت-تحلیل-گر-حرفه-ای-و-تحلیل-گر-آماتور/
+Redirect 301 /حضور-مدیران-و-کارشناسان/ https://barsasoft.com/blog/حضور-مدیران-و-کارشناسان/
+Redirect 301 /سیستم-متد-در-شرکت-راه-اندازی-شد/ https://barsasoft.com/blog/سیستم-متد-در-شرکت-راه-اندازی-شد/
+Redirect 301 /سند-تحلیل-زنده-بسازیم/ https://barsasoft.com/blog/سند-تحلیل-زنده-بسازیم/
+Redirect 301 /سیستم-ساز-برسا-در-ششمین-همایش-ملی-مدیرا/ https://barsasoft.com/blog/سیستم-ساز-برسا-در-ششمین-همایش-ملی-مدیرا/
+Redirect 301 /ششمین-همایش-ملی-مدیران-فناوری-و-اطلاعا/ https://barsasoft.com/blog/ششمین-همایش-ملی-مدیران-فناوری-و-اطلاعا/
+Redirect 301 /حضور-برسا-نوین-رای-در-نمایشگاه-تخصصی-سا/ https://barsasoft.com/blog/حضور-برسا-نوین-رای-در-نمایشگاه-تخصصی-سا/
+Redirect 301 /حضور-برسا-در-چهارمین-همایش-و-نمایشگاه-م/ https://barsasoft.com/blog/حضور-برسا-در-چهارمین-همایش-و-نمایشگاه-م/
+Redirect 301 /برگزاری-آزمون-متمرکز-استخدامی/ https://barsasoft.com/blog/برگزاری-آزمون-متمرکز-استخدامی/
+Redirect 301 /بازدید-حجت-الاسلام-جناب-آقای-رئیسی-از-غ/ https://barsasoft.com/blog/بازدید-حجت-الاسلام-جناب-آقای-رئیسی-از-غ/
+Redirect 301 /بازدید-معاون-محترم-وزیر-ارتباطات-و-فنا/ https://barsasoft.com/blog/بازدید-معاون-محترم-وزیر-ارتباطات-و-فنا/
+Redirect 301 /دومین-نمایشگاه-تخصصی-شرکت-های-دانش-بنی/ https://barsasoft.com/blog/دومین-نمایشگاه-تخصصی-شرکت-های-دانش-بنی/
+
+
+#303
+Redirect 303 /barsa-system-builder/selection-criteria/  https://barsasoft.com/barsa-system-builder/process-management
+

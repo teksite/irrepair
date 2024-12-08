@@ -1,0 +1,11 @@
+{
+    "name": "Page",
+    "alias": "page",
+    "description": "",
+    "keywords": [],
+    "priority": 10,
+    "providers": [
+        "Modules\\Page\\Providers\\PageServiceProvider"
+    ],
+    "files": []
+}

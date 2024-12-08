@@ -1,0 +1,21 @@
+<?php
+
+namespace Modules\{{ Module }}\Http\Requests\{{ Namespace }};
+
+use Modules\Main\Action\ApiRequest;
+
+class {{ class }} extends ApiRequest
+{
+
+    public function rules(): array
+    {
+        return [
+            //
+        ];
+    }
+
+    public function authorize(): bool
+    {
+        return true;
+    }
+}

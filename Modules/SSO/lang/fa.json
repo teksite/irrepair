@@ -1,0 +1,7 @@
+{
+
+    "to use social authentication module, use the below component in your sign up or sign in page": "برای استفاده از ماژول اهراز هویت، از کامپوننت زیر در صفحه ثبت نام و ورود به حساب کاربری استفاده کنید",
+    "if the user was registered before, he/shw would sign in to the account else a new account would be created":"اگر کاربر قبلا حساب کاربری داشته باشد، کاربر به حساب کاربری خود وارد می شود در غبر این صورت یک حساب کاربری ساخته ‌می‌شود",
+    "the callback url in env file is not set correctly": "آدرس بازگشتی در فایل env بصورت درست وارد نشده‌است",
+    "use the below links to create permission use the authentication ways and get client id and secret key id": "از لینک‌های زیر برای دریافت اجازه دسترسی از راه های اهراز هویت و بدست آوردن client id و secret key id استفاده کنید"
+}

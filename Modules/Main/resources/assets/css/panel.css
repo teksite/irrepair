@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    h1{
+        @apply font-bold lg:text-3xl md:text-2xl text-xl mb-6;
+    }
+    h2{
+        @apply font-bold lg:text-2xl md:text-xl text-lg mb-3;
+    }
+    h3{
+        @apply font-bold lg:text-xl text-lg mb-3;
+    }
+    p{
+        @apply text-gray-900 mb-3
+    }
+}
+
+@layer components{
+
+    .p , .paragraph{
+        @apply text-gray-900
+    }
+
+    .paragraph{
+        @apply mb-3
+    }
+    .inner-container {
+        @apply w-11/12 md:w-3/4 max-w-7xl mx-auto
+    }
+    a.header-link{
+        @apply border border-slate-200 rounded shadow
+    }
+    a.regular{
+        @apply text-blue-600
+    }
+    pre.pre-text{
+        @apply text-wrap
+    }
+    .tkicon{
+        @apply fill-none
+    }
+    .xbox{
+        @apply p-6 rounded-2xl shadow-xl bg-white
+    }
+}
+input[type="number"],input[type="phone"], input[type="date"], input[type="localdate"], input[type="url"] , input[type="email"], input[name="slug"] {
+    direction: ltr;
+}
+
+
+
+.slider {
+    position: relative;
+    max-width: 40rem;
+    height: 20rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 250ms;
+}
+
+.dot {
+    display: block;
+}
+
+.dot.active {
+    color: #94a5c2 !important;
+    font-weight: bold;
+}
