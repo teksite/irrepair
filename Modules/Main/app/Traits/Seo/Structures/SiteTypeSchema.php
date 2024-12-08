@@ -12,8 +12,8 @@ trait SiteTypeSchema
 {
     public function siteTypeSchema()
     {
-        $business = SeoGeneral::query()->firstWhere('title', 'seo_localBusiness');
-        $organ = SeoGeneral::query()->firstWhere('title', 'seo_organization');
+        $business = SeoGeneral::query()->firstWhere('key', 'seo_localBusiness');
+        $organ = SeoGeneral::query()->firstWhere('key', 'seo_organization');
 
         if ($business->stance == 'on') {
             return $this->businessSchema($business->value);

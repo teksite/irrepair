@@ -11,7 +11,7 @@ trait WebSiteSchema
 {
     public function websiteSchema()
     {
-        $General = SeoGeneral::query()->firstWhere('title', 'seo_general')?->value;
+        $General = SeoGeneral::query()->firstWhere('key', 'seo_general')?->value;
 
         $schema = new Schema();
         return $schema::webSite()
