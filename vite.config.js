@@ -2,8 +2,8 @@ import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 
 export default defineConfig({
-    // build: {
-    //     outDir:"public_html/build",
+     build: {
+         outDir:"public_html/build",
     //     /*  assetsDir:"minified",
     //
     //       minify: 'terser',
@@ -19,7 +19,7 @@ export default defineConfig({
     //           treeshake:false
     //       }*!/
     //       */
-    // },
+     },
 
     plugins: [
         laravel({
@@ -38,7 +38,7 @@ export default defineConfig({
                 'Modules/Blog/resources/assets/css/app.css', 'Modules/Blog/resources/assets/js/app.js',
 
             ],
-            // publicDirectory: 'public_html',
+             publicDirectory: 'public_html',
             refresh: true,
         }),
     ],

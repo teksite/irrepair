@@ -22,21 +22,21 @@ export default {
             'marquee': 'marquee 20s linear infinite',
         },
         backgroundImage: {
-            'admin-1': "url('/public/admin/images/admin-1.jpg')",
-            'back-1': "url('/public/admin/images/background-1.jpg')",
-            'panel-header':"url('/public/admin/images/background-1.jpg')",
+            'admin-1': "url('/public_html/admin/images/admin-1.jpg')",
+            'back-1': "url('/public_html/admin/images/background-1.jpg')",
+            'panel-header':"url('/public_html/admin/images/background-1.jpg')",
             'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 
-            'no-access-video': "url('/public/admin/images/digital-wave.jpg')",
+            'no-access-video': "url('/public_html/admin/images/digital-wave.jpg')",
 
-            'theme-1': "url('/public/uploads/images/site/background-1.png')",
-            'theme-2': "url('/public/uploads/images/site/background-2.png')",
-            'theme-3': "url('/public/uploads/images/site/background-3.png')",
-            'theme-4': "url('/public/uploads/images/site/background-4.svg')",
-            'theme-5': "url('/public/uploads/images/site/grid-background.png')",
-            'theme-6': "url('/public/uploads/images/site/background-6.jpg')",
-            'theme-7': "url('/public/uploads/images/site/background-7.jpg')",
-            'theme-8': "url('/public/uploads/images/site/grid-background-2.png')",
+            'theme-1': "url('/public_html/uploads/images/site/background-1.png')",
+            'theme-2': "url('/public_html/uploads/images/site/background-2.png')",
+            'theme-3': "url('/public_html/uploads/images/site/background-3.png')",
+            'theme-4': "url('/public_html/uploads/images/site/background-4.svg')",
+            'theme-5': "url('/public_html/uploads/images/site/grid-background.png')",
+            'theme-6': "url('/public_html/uploads/images/site/background-6.jpg')",
+            'theme-7': "url('/public_html/uploads/images/site/background-7.jpg')",
+            'theme-8': "url('/public_html/uploads/images/site/grid-background-2.png')",
 
 
         },

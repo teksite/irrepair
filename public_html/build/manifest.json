@@ -128,29 +128,29 @@
       "_utils-CXhDygi-.js"
     ]
   },
-  "public/admin/images/admin-1.jpg": {
+  "public_html/admin/images/admin-1.jpg": {
     "file": "assets/admin-1-ByOyOfMf.jpg",
-    "src": "public/admin/images/admin-1.jpg"
+    "src": "public_html/admin/images/admin-1.jpg"
   },
-  "public/admin/images/background-1.jpg": {
+  "public_html/admin/images/background-1.jpg": {
     "file": "assets/background-1-JsNz2bJW.jpg",
-    "src": "public/admin/images/background-1.jpg"
+    "src": "public_html/admin/images/background-1.jpg"
   },
-  "public/uploads/images/site/background-1.png": {
+  "public_html/uploads/images/site/background-1.png": {
     "file": "assets/background-1-BDV5Iqab.png",
-    "src": "public/uploads/images/site/background-1.png"
+    "src": "public_html/uploads/images/site/background-1.png"
   },
-  "public/uploads/images/site/background-4.svg": {
+  "public_html/uploads/images/site/background-4.svg": {
     "file": "assets/background-4-D7Ijq_zC.svg",
-    "src": "public/uploads/images/site/background-4.svg"
+    "src": "public_html/uploads/images/site/background-4.svg"
   },
-  "public/uploads/images/site/background-6.jpg": {
+  "public_html/uploads/images/site/background-6.jpg": {
     "file": "assets/background-6-Dv3w997v.jpg",
-    "src": "public/uploads/images/site/background-6.jpg"
+    "src": "public_html/uploads/images/site/background-6.jpg"
   },
-  "public/uploads/images/site/background-7.jpg": {
+  "public_html/uploads/images/site/background-7.jpg": {
     "file": "assets/background-7-Bn5JGW1S.jpg",
-    "src": "public/uploads/images/site/background-7.jpg"
+    "src": "public_html/uploads/images/site/background-7.jpg"
   },
   "resources/css/app.css": {
     "file": "assets/app-BU7U8F5Y.css",
